@@ -1,0 +1,12 @@
+configuration {
+  /* Mostra les aplicacions instal·lades */
+  modi: "drun";
+  show-icons: true;
+}
+
+/* Estil visual */
+* {
+  background-color: #1e1e2e;
+  text-color: #cdd6f4;
+  border-color: #00BFFF;
+}
