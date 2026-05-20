@@ -67,3 +67,9 @@ screens = [
 main = None
 follow_mouse_focus = True
 cursor_warp = False
+
+import subprocess
+
+@hook.subscribe.startup_once
+def autostart():
+	subprocess.Popen(['feh', '--bg-scale', '/home/denis/wallpaper.jpg'])
